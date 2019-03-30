@@ -3,7 +3,7 @@ Task [T219700](https://phabricator.wikimedia.org/T219700) "*ISNI i SKBL <-> Wiki
 
  
 
-KARP is a database that contains profiles from SKBL ( [The Biographical Dictionary of Swedish](https://skbl.se/en/about-skbl) ). Wikidata is already connected to all records in SKBL using the [property 4963](https://www.wikidata.org/wiki/Property_talk:P4963) ( [see blog](http://minancestry.blogspot.com/2018/03/svenskt-kvinnobiografiskt-lexikon.html) )
+KARP is a database that contains profiles from SKBL ( [The Biographical Dictionary of Swedish Women](https://skbl.se/en/about-skbl) ). Wikidata is already connected to all records in SKBL using the [property 4963](https://www.wikidata.org/wiki/Property_talk:P4963) ( [see blog](http://minancestry.blogspot.com/2018/03/svenskt-kvinnobiografiskt-lexikon.html) )
 
 This [task](https://phabricator.wikimedia.org/T219700) is for checking consistency between data in SKBL and WD regarding ISNI (compare [WD <-> Nobelprize using Federated search](https://www.wikidata.org/wiki/User:Salgo60/ListeriaNobelData3) )
 
@@ -18,21 +18,21 @@ This [task](https://phabricator.wikimedia.org/T219700) is for checking consisten
 
    * --> Wikidata P4963 --> [haswbstatement:P4963=AlmaAbrahamsson](https://www.wikidata.org/w/index.php?search=haswbstatement%3AP4963%3DAlmaAbrahamsson&title=Special%3ASearch&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1&ns120=1) --> Wikidata [Q50806808](https://www.wikidata.org/wiki/Q50806808)
 ### The program
-To use add Wikidata login to user-config.py
+To use add Wikidata login to [user-config.py](https://github.com/salgo60/SKBLWikidata/blob/master/user-config.py)
 
 The program
 
 1. Gets all records from Karp SKBL
     1. try to decode ISNI
 1. Gets Wikidata record and ISNI in Wikidata
-1. Logs potential mismatches in the /log file
-1. Writes a csv file skbl.csv
+1. Logs potential mismatches to the [/log file](https://github.com/salgo60/SKBLWikidata/tree/master/log)
+1. Writes a csv file [skbl.csv](https://github.com/salgo60/SKBLWikidata/blob/master/skbl.csv)
 
 ### Wikidata actions
 1. Updated wrong ISNI added missing
 1. Oddities found in SKBL
-    1. [AVmr017w7hONWjeN9oCA](https://skbl.se/sv/artikel/AVmr017w7hONWjeN9oCA.json) ISNI number containes also ISNI
-    1. [LydiaWahlstrom](https://www.skbl.se/sv/artikel/LydiaWahlstrom) miss [ISNI 0000 0001 0966 715X](https://tools.wmflabs.org/wikidata-externalid-url/?p=213&url_prefix=http://isni.org/&id=0000+0001+0966+715X)
+    1. [AVmr017w7hONWjeN9oCA](https://skbl.se/sv/artikel/AVmr017w7hONWjeN9oCA.json) ISNI number containes also text ISNI
+    1. See section below Action SKBL see also task [T219706](https://phabricator.wikimedia.org/T219706)
     
 ## Lesson learned
 1. Writing software that should parse JSON and take care of odd implementations like KARP ISNI were **00000000** is no ISNI found. Take much more time than having a SPARQL endpoint and use Federated search see [Task T200668](https://phabricator.wikimedia.org/T200668) and [Nobelprize.org](https://www.wikidata.org/wiki/User:Salgo60/ListeriaNobelData3)
@@ -85,6 +85,7 @@ The program
     1. http://www.wikidata.org/wiki/Q4976841 
         1. SKBL: https://skbl.se/sv/artikel/AV9sGgqZWxymAE2pjnoD.json		  
         1. WD ISNI: 0000 0000 5196 8258 SKBL ISNI: 0000000137251661
+        1. Looks like she has 2 ISNI
     1. http://www.wikidata.org/wiki/Q4979129 
         1. SKBL: https://skbl.se/sv/artikel/AWED1FSwWxymAE2pjnyw.json		  
         1. WD ISNI: 0000 0001 0915 0425 SKBL ISNI: 
