@@ -50,7 +50,7 @@ The program
        1. example [search in Wikidata for female Swedish persons who has died and have most articles and are not part of SKB](https://goo.gl/2qnzxo) - in Swedish a [Video](https://www.youtube.com/watch?v=SCk39XvzvNs)
     
 ## Action SKBL see also task [T219706](https://phabricator.wikimedia.org/T219706)
-1. Mismatches that maybe needs action at SKBL Task; xxxxx
+1. Mismatches that maybe needs action at SKBL Task [T219706](https://phabricator.wikimedia.org/T219706)
     1. http://www.wikidata.org/wiki/Q4954113 
         1. SKBL: https://skbl.se/sv/artikel/AV44Ec_tDqWJ2eBq92nx.json		  
         1. WD ISNI: 0000 0000 5186 9858 SKBL ISNI: 
