@@ -45,9 +45,9 @@ The program
 1. Find better patterns I feel SPARQL endpoint is easy and in Wikidata we have out of the box support for Listera lists see [video in Swedish](https://youtu.be/jOtrlb1KRP8)
 1. Also get tighter collaborations between different projects 
     1. SKBL writes about [Lilli Zickerman](https://www.skbl.se/sv/artikel/LilliZickerman) and Nordiska has [new material](https://twitter.com/sveren/status/1106851525375287301) - help each other to be more visible and dont be scare linking see [tweet](https://twitter.com/salgo60/status/1107959251505479681)
-    1. In WIkidata we document signs of litterature in Stockholm see [link](https://sv.wikipedia.org/wiki/Anv%C3%A4ndare:Salgo60/Listeria/Det_litter%C3%A4ra_Stockholm) - maybe this could be an input to SKBL what peple should be documented next time and when planning signs also look how they relates to SKBL/Litteraturbanken
+    1. In WIkidata we document signs of litterature in Stockholm see [link](https://sv.wikipedia.org/wiki/Anv%C3%A4ndare:Salgo60/Listeria/Det_litter%C3%A4ra_Stockholm) - maybe this could be an input to SKBL what people should be documented next time and when planning signs also look how they relates to SKBL/Litteraturbanken
     1. See also (blogpost](http://minancestry.blogspot.com/2019/03/wikipediawikidata-digitaltmuseum.html) how Wikidata can be used to get some interesting statistics
-       1. example [search in Wikidata for female Swedish persons who has died and have mst articles](https://goo.gl/2qnzxo) - [Video](https://www.youtube.com/watch?v=SCk39XvzvNs)
+       1. example [search in Wikidata for female Swedish persons who has died and have most articles](https://goo.gl/2qnzxo) - in Swedish a [Video](https://www.youtube.com/watch?v=SCk39XvzvNs)
     
 ## Action SKBL see also task [T219706](https://phabricator.wikimedia.org/T219706)
 1. Mismatches that maybe needs action at SKBL Task; xxxxx
