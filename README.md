@@ -21,16 +21,22 @@ This [task](https://phabricator.wikimedia.org/T219700) is for checking consisten
      * --> [haswbstatement:P4963=AlmaAbrahamsson](https://www.wikidata.org/w/index.php?search=haswbstatement%3AP4963%3DAlmaAbrahamsson&title=Special%3ASearch&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1&ns120=1) --> Wikidata [Q50806808](https://www.wikidata.org/wiki/Q50806808) --> sv:Wikipedia [Alma Abrahamsson](https://sv.wikipedia.org/wiki/Alma_Abrahamsson)
      * or use the [hub tool](https://tools.wmflabs.org/hub) with P4963 and the value in KARP.url [tools.wmflabs.org/hub/P4963:AlmaAbrahamsson?lang=sv](https://tools.wmflabs.org/hub/P4963:AlmaAbrahamsson?lang=sv)
    * [List of Wikidata](http://tinyurl.com/y33z9466) / KARP.url / LIBIRS / ISSNI / SBL - [link query](https://goo.gl/2ffJwf)
+   * [List of external identifiers i WIkidata](http://tinyurl.com/yybaazal) for profiles linked to SKBL see also [blog](http://minancestry.blogspot.com/2018/03/svenskt-kvinnobiografiskt-lexikon.html)
 ### The program
 To use add Wikidata login to [user-config.py](https://github.com/salgo60/SKBLWikidata/blob/master/user-config.py)
 
 The program
 
-1. Gets all records from Karp SKBL
-    1. try to decode ISNI
-1. Gets Wikidata record and ISNI in Wikidata
+1. Gets [all records from Karp SKBL](https://ws.spraakbanken.gu.se/ws/karp/v4/minientry?mode=skbl&q=extended%7C%7Cand%7Cnamn.search%7Cexists&resource=skbl&show=name,lifespan&size=10000&start=0)
+    1. try to decode ISNI ([get_isni](https://github.com/salgo60/SKBLWikidata/blob/master/get_SKBL.py))
+1. Gets Wikidata record and ISNI in Wikidata ([get_wikidata](https://github.com/salgo60/SKBLWikidata/blob/master/get_Wikidata.py))
 1. Logs potential mismatches to the [/log file](https://github.com/salgo60/SKBLWikidata/tree/master/log)
-1. Writes a csv file [skbl.csv](https://github.com/salgo60/SKBLWikidata/blob/master/skbl.csv)
+1. Writes a csv file [skbl.csv](https://github.com/salgo60/SKBLWikidata/blob/master/skbl.csv) with the following columns
+    1. Karp.url = Wikidata [P4963](https://www.wikidata.org/wiki/Property_talk:P4963) e.g. MargitAbenius
+    1. Karp.id
+    1. SKBL ISNI (format 9999 9999 9999 9999 )
+    1. Wikidata Q number e.g. [Q4933592](https://www.wikidata.org/wiki/Q4933592)
+    1. Wikidata ISNI
 
 ### Wikidata actions
 1. Updated wrong ISNI added missing
