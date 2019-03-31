@@ -16,7 +16,7 @@ This [task](https://phabricator.wikimedia.org/T219700) is for checking consisten
  * KARP 
    * KARP.url = "GertrudAdelborg" 
    * KARP.id =  [AVUB3uB9oXI9ppygjor0](https://skbl.se/sv/artikel/AVUB3uB9oXI9ppygjor0.json) 
-
+#### KARP <-> Wikidata 
    * Wikidata [P4963](https://www.wikidata.org/wiki/Property_talk:P4963) contains the value of KARP.url
      * --> [haswbstatement:P4963=GertrudAdelborg](https://www.wikidata.org/w/index.php?search=haswbstatement%3AP4963%3DGertrudAdelborg&title=Special%3ASearch&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1&ns120=1) --> Wikidata [Q4933813](https://www.wikidata.org/wiki/Q4933813) --> sv:Wikipedia [Gertrud Adelborg](https://sv.wikipedia.org/wiki/Gertrud_Adelborg)
      * or use the [hub tool](https://tools.wmflabs.org/hub) with P4963 and the value in KARP.url [tools.wmflabs.org/hub/P4963:GertrudAdelborg?lang=sv](https://tools.wmflabs.org/hub/P4963:GertrudAdelborg?lang=sv)
@@ -27,9 +27,28 @@ This [task](https://phabricator.wikimedia.org/T219700) is for checking consisten
            * SKBL P4963 = GertrudAdelborg --> SBL P3217 [tools.wmflabs.org/hub/P4963:GertrudAdelborg?property=P3217](tools.wmflabs.org/hub/P4963:GertrudAdelborg?property=P3217)
       * [List of Wikidata](http://tinyurl.com/y33z9466) / KARP.url / LIBIRS / ISSNI / SBL - [link query](https://goo.gl/2ffJwf)
       * [List of external identifiers in WIkidata](http://tinyurl.com/yybaazal) for profiles linked to SKBL see also [blog](http://minancestry.blogspot.com/2018/03/svenskt-kvinnobiografiskt-lexikon.html)
-  * next step is to also define sources with Unique identifiers so they can be machinereadable and compared
-      * a small test with +300 SKBL profiles what sources in Riksarkivet Wikidata reference
-          * [list with links](http://tinyurl.com/y2hpdscg) Riksarkivet ( [the query](https://goo.gl/SupVkQ))
+##### KARP <-> Wikidata sources e.g. Riksarkivet
+* next step is to also define sources with Unique identifiers so they can be machinereadable and compared
+  * a small test with +300 SKBL profiles what sources in Riksarkivet Wikidata reference
+      * [list with links](http://tinyurl.com/y2hpdscg) Riksarkivet ( [the query](https://goo.gl/SupVkQ))
+##### KARP <-> Wikidata <-> Digital Museums
+As we move direction digital als some museums adds collections avalaible on the net as [Digitalmuseum.org](https://digitaltmuseum.org/). In Wikidata we store an identifier called Kulturnav and if the museums that upload data to Digitalmuseum is doing it in the "correct" way we could easy find collection for a person e.g.
+* Example
+  * SKBL xxxx = kulturnav xxx = Digital museum 
+  * [List](http://tinyurl.com/y4qtlfms) ordered after how many articles Wikipedia have about the person in different languages
+##### KARP <-> Wikidata <-> Signaturer.se [P5316]((https://www.wikidata.org/wiki/Property_talk:P5316]
+* Example
+  * SKBL [AnnaBoberg](https://www.skbl.se/sv/artikel/AnnaBoberg) = Signaturer.se [AnnaBoberg](http://www.signaturer.se/Sverige/AnnaBoberg.htm)
+  * [List](http://tinyurl.com/y2m8twb9) 
+##### KARP <-> Wikidata <-> Nationalmuseum [P2538](https://www.wikidata.org/wiki/Property_talk:P2538)
+* Example 
+  * SKBL [HilmaafKlint](https://www.skbl.se/sv/artikel/HilmaafKlint) = Nationalmuseum [18466](http://emp-web-84.zetcom.ch/eMP/eMuseumPlus?service=ExternalInterface&module=artist&objectId=18466)
+  * [List](http://tinyurl.com/yxcpg6yl)
+##### KARP <-> Wikidata <-> Spotify [P1902](https://www.wikidata.org/wiki/Property_talk:P1902)
+* Example 
+  * SKBL [ZarahLeander](https://www.skbl.se/sv/artikel/ZarahLeander) = Spotify [5R15K0QUPe4AhP1vaPoaX3](https://open.spotify.com/artist/5R15K0QUPe4AhP1vaPoaX3)
+  * [List](http://tinyurl.com/y68adnky)
+
 ### The program
 To use add Wikidata login to [user-config.py](https://github.com/salgo60/SKBLWikidata/blob/master/user-config.py)
 
