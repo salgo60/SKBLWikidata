@@ -5,7 +5,7 @@ Task [T219700](https://phabricator.wikimedia.org/T219700) "*ISNI i SKBL <-> Wiki
 
 KARP is a database that contains profiles from SKBL ( [The Biographical Dictionary of Swedish Women](https://skbl.se/en/about-skbl) ). Wikidata is already connected to all records in SKBL using the [property 4963](https://www.wikidata.org/wiki/Property_talk:P4963) ( [see blog](http://minancestry.blogspot.com/2018/03/svenskt-kvinnobiografiskt-lexikon.html) )
 
-This [task](https://phabricator.wikimedia.org/T219700) is for checking consistency between data in SKBL and WD regarding ISNI (compare how simple the same solution is with [SPARQL Federated search](https://phabricator.wikimedia.org/T200668) se [WD <-> Nobelprize using Federated search](https://www.wikidata.org/wiki/User:Salgo60/ListeriaNobelData3) )
+This [task](https://phabricator.wikimedia.org/T219700) is for checking consistency between data in SKBL and WD regarding ISNI (compare how simple the same solution is with [SPARQL Federated search](https://phabricator.wikimedia.org/T200668) see [WD <-> Nobelprize using Federated search](https://www.wikidata.org/wiki/User:Salgo60/ListeriaNobelData3) )
 
 ### KARP
 * [Nättjänst](https://spraakbanken.gu.se/swe/Forskning/Infrastruktur/Karp/N%C3%A4ttj%C3%A4nst/n%C3%A4ttj%C3%A4nst)
