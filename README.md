@@ -5,7 +5,7 @@ Task [T219700](https://phabricator.wikimedia.org/T219700) "*ISNI i SKBL <-> Wiki
 
 KARP is a database that contains profiles from SKBL ( [The Biographical Dictionary of Swedish Women](https://skbl.se/en/about-skbl) ). Wikidata is already connected to all records in SKBL using the [property 4963](https://www.wikidata.org/wiki/Property_talk:P4963) ( [see blog](http://minancestry.blogspot.com/2018/03/svenskt-kvinnobiografiskt-lexikon.html) )
 
-This [task](https://phabricator.wikimedia.org/T219700) is for checking consistency between data in SKBL and WD regarding ISNI (compare how simple the same solution is with [SPARQL Federated search](https://phabricator.wikimedia.org/T200668) see [WD <-> Nobelprize using Federated search](https://www.wikidata.org/wiki/User:Salgo60/ListeriaNobelData3) )
+This [task](https://phabricator.wikimedia.org/T219700) is for checking consistency between data in SKBL and Wikidata (WD) regarding ISNI (compare how simple the same solution is with [SPARQL Federated search](https://phabricator.wikimedia.org/T200668) see [WD <-> Nobelprize using Federated search](https://www.wikidata.org/wiki/User:Salgo60/ListeriaNobelData3) )
 
 ### KARP
 * [Nättjänst](https://spraakbanken.gu.se/swe/Forskning/Infrastruktur/Karp/N%C3%A4ttj%C3%A4nst/n%C3%A4ttj%C3%A4nst)
@@ -14,14 +14,22 @@ This [task](https://phabricator.wikimedia.org/T219700) is for checking consisten
  * Get all records 
    * [ws.spraakbanken.gu.se/ws/karp/v4/minientry?mode=skbl&q=extended||and|namn.search|exists&resource=skbl&show=name,lifespan&size=10000&start=0](https://ws.spraakbanken.gu.se/ws/karp/v4/minientry?mode=skbl&q=extended%7C%7Cand%7Cnamn.search%7Cexists&resource=skbl&show=name,lifespan&size=10000&start=0)
  * KARP 
-   * KARP.url = "AlmaAbrahamsson" 
-   * KARP.id =  [AV-6FkE-WxymAE2pjnq5](https://skbl.se/sv/artikel/AV-6FkE-WxymAE2pjnq5.json) 
+   * KARP.url = "GertrudAdelborg" 
+   * KARP.id =  [AVUB3uB9oXI9ppygjor0](https://skbl.se/sv/artikel/AVUB3uB9oXI9ppygjor0.json) 
 
    * Wikidata [P4963](https://www.wikidata.org/wiki/Property_talk:P4963) contains the value of KARP.url
-     * --> [haswbstatement:P4963=AlmaAbrahamsson](https://www.wikidata.org/w/index.php?search=haswbstatement%3AP4963%3DAlmaAbrahamsson&title=Special%3ASearch&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1&ns120=1) --> Wikidata [Q50806808](https://www.wikidata.org/wiki/Q50806808) --> sv:Wikipedia [Alma Abrahamsson](https://sv.wikipedia.org/wiki/Alma_Abrahamsson)
-     * or use the [hub tool](https://tools.wmflabs.org/hub) with P4963 and the value in KARP.url [tools.wmflabs.org/hub/P4963:AlmaAbrahamsson?lang=sv](https://tools.wmflabs.org/hub/P4963:AlmaAbrahamsson?lang=sv)
-   * [List of Wikidata](http://tinyurl.com/y33z9466) / KARP.url / LIBIRS / ISSNI / SBL - [link query](https://goo.gl/2ffJwf)
-   * [List of external identifiers i WIkidata](http://tinyurl.com/yybaazal) for profiles linked to SKBL see also [blog](http://minancestry.blogspot.com/2018/03/svenskt-kvinnobiografiskt-lexikon.html)
+     * --> [haswbstatement:P4963=GertrudAdelborg](https://www.wikidata.org/w/index.php?search=haswbstatement%3AP4963%3DGertrudAdelborg&title=Special%3ASearch&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1&ns120=1) --> Wikidata [Q4933813](https://www.wikidata.org/wiki/Q4933813) --> sv:Wikipedia [Gertrud Adelborg](https://sv.wikipedia.org/wiki/Gertrud_Adelborg)
+     * or use the [hub tool](https://tools.wmflabs.org/hub) with P4963 and the value in KARP.url [tools.wmflabs.org/hub/P4963:GertrudAdelborg?lang=sv](https://tools.wmflabs.org/hub/P4963:GertrudAdelborg?lang=sv)
+        * same with the Q number [tools.wmflabs.org/hub/Q4933813?lang=sv](https://tools.wmflabs.org/hub/Q4933813?lang=sv)
+        * same with ISNI = [tools.wmflabs.org/hub/P213:0000 0000 4761 5839?lang=sv](http://tools.wmflabs.org/hub/P213:0000 0000 4761 5839?lang=sv)
+        * same with LIBRIS P906 = 404084 -> SKBL P4963 [tools.wmflabs.org/hub/P906:404084?property=P4963](http://tools.wmflabs.org/hub/P906:404084?property=P4963)
+        * same with SBL P3217 = 5517 -> SKBL P4963 [tools.wmflabs.org/hub/P3217:5517?property=P4963](http://tools.wmflabs.org/hub/P3217:5517?property=P496)
+           * SKBL P4963 = GertrudAdelborg --> SBL P3217 [tools.wmflabs.org/hub/P4963:GertrudAdelborg?property=P3217](tools.wmflabs.org/hub/P4963:GertrudAdelborg?property=P3217)
+      * [List of Wikidata](http://tinyurl.com/y33z9466) / KARP.url / LIBIRS / ISSNI / SBL - [link query](https://goo.gl/2ffJwf)
+      * [List of external identifiers in WIkidata](http://tinyurl.com/yybaazal) for profiles linked to SKBL see also [blog](http://minancestry.blogspot.com/2018/03/svenskt-kvinnobiografiskt-lexikon.html)
+  * next step is to also define sources with Unique identifiers so they can be machinereadable and compared
+      * a small test with +300 SKBL profiles what sources in Riksarkivet Wikidata reference
+          * [list with links](http://tinyurl.com/y2hpdscg) Riksarkivet ( [the query](https://goo.gl/SupVkQ))
 ### The program
 To use add Wikidata login to [user-config.py](https://github.com/salgo60/SKBLWikidata/blob/master/user-config.py)
 
