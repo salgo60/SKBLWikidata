@@ -34,9 +34,9 @@ This [task](https://phabricator.wikimedia.org/T219700) is for checking consisten
 ##### KARP <-> Wikidata <-> Digital Museums
 As we move direction digital als some museums adds collections avalaible on the net as [Digitalmuseum.org](https://digitaltmuseum.org/). In Wikidata we store an identifier called Kulturnav and if the museums that upload data to Digitalmuseum is doing it in the "correct" way we could easy find collection for a person e.g.
 * Example
-  * SKBL xxxx = kulturnav xxx = Digital museum 
+  * SKBL [LeaAhlborn](https://www.skbl.se/sv/artikel/LeaAhlborn) = [kulturnav Ahlborn, Lea (1826 - 1897)](http://kulturnav.org/569ae578-d8d8-4260-a6d3-e67f8ffb7bda) = Digital museum [ahlborn-lea-1826-1897](https://digitaltmuseum.se/021036372385/ahlborn-lea-1826-1897)
   * [List](http://tinyurl.com/y4qtlfms) ordered after how many articles Wikipedia have about the person in different languages
-##### KARP <-> Wikidata <-> Signaturer.se [P5316]((https://www.wikidata.org/wiki/Property_talk:P5316]
+##### KARP <-> Wikidata <-> Signaturer.se [P5316](https://www.wikidata.org/wiki/Property_talk:P5316)
 * Example
   * SKBL [AnnaBoberg](https://www.skbl.se/sv/artikel/AnnaBoberg) = Signaturer.se [AnnaBoberg](http://www.signaturer.se/Sverige/AnnaBoberg.htm)
   * [List](http://tinyurl.com/y2m8twb9) 
@@ -44,14 +44,29 @@ As we move direction digital als some museums adds collections avalaible on the 
 * Example 
   * SKBL [HilmaafKlint](https://www.skbl.se/sv/artikel/HilmaafKlint) = Nationalmuseum [18466](http://emp-web-84.zetcom.ch/eMP/eMuseumPlus?service=ExternalInterface&module=artist&objectId=18466)
   * [List](http://tinyurl.com/yxcpg6yl)
+     * [List](http://tinyurl.com/y6kqe9gm) female, swedish women who has passed away and is NOT in SKBL ordered by articles in Wikipedia
 ##### KARP <-> Wikidata <-> Spotify [P1902](https://www.wikidata.org/wiki/Property_talk:P1902)
 * Example 
   * SKBL [ZarahLeander](https://www.skbl.se/sv/artikel/ZarahLeander) = Spotify [5R15K0QUPe4AhP1vaPoaX3](https://open.spotify.com/artist/5R15K0QUPe4AhP1vaPoaX3)
   * [List](http://tinyurl.com/y68adnky)
+     * [List](http://tinyurl.com/y3yamvth) female, swedish women who has passed away and is NOT in SKBL ordered by number of articles in Wikipedia
 ##### KARP <-> Wikidata <-> Svenskt Översättarlexikon [P5147](https://www.wikidata.org/wiki/Property_talk:P5147)
 * Example 
   * SKBL [HedvigCharlottaNordenflycht](https://www.skbl.se/sv/artikel/HedvigCharlottaNordenflychtÖversättar) = Svenskt Översättarlexikon [Hedvig_Charlotta_Nordenflycht](https://litteraturbanken.se/%C3%B6vers%C3%A4ttarlexikon/artiklar/Hedvig_Charlotta_Nordenflycht)
   * [List](http://tinyurl.com/y4n99gjy)
+     * [List](http://tinyurl.com/y4leqwks) female, past away but NOT in SKBL ordered by number of articles in Wikipedia
+##### KARP <-> Wikidata <-> SOK [P2323](https://www.wikidata.org/wiki/Property_talk:P2323)
+* Example 
+  * SKBL [GretaJohansson](https://www.skbl.se/sv/artikel/GretaJohansson) = SOK [greta-johanson](https://sok.se/idrottare/idrottare/g/greta-johanson.html)
+  * [List](http://tinyurl.com/y325kqst)
+     * [List](http://tinyurl.com/y3qgu62u) female, past away part in SOK but NOT in SKBL ordered by number of articles in Wikipedia
+
+##### KARP <-> Wikidata <-> Litteraturbanken [P5101](https://www.wikidata.org/wiki/Property_talk:P5101)
+Status in Wikidata is that Litteraturbanken [P5101](https://www.wikidata.org/wiki/Property_talk:P5101) needs some cleaning....
+* Example 
+  * SKBL [SelmaLagerlof](https://www.skbl.se/sv/artikel/SelmaLagerlof) = Litteraturbanken [LagerlofS](https://litteraturbanken.se/forfattare/LagerlofS)
+  * [List](http://tinyurl.com/y5djjq4r)
+     * [List](http://tinyurl.com/y2p659r7) female, past away part in Litteraturbanken but NOT in SKBL ordered by number of articles in Wikipedia
 
 ### The program
 To use add Wikidata login to [user-config.py](https://github.com/salgo60/SKBLWikidata/blob/master/user-config.py)
