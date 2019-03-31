@@ -48,6 +48,10 @@ As we move direction digital als some museums adds collections avalaible on the 
 * Example 
   * SKBL [ZarahLeander](https://www.skbl.se/sv/artikel/ZarahLeander) = Spotify [5R15K0QUPe4AhP1vaPoaX3](https://open.spotify.com/artist/5R15K0QUPe4AhP1vaPoaX3)
   * [List](http://tinyurl.com/y68adnky)
+##### KARP <-> Wikidata <-> Svenskt Översättarlexikon [P5147](https://www.wikidata.org/wiki/Property_talk:P5147)
+* Example 
+  * SKBL [HedvigCharlottaNordenflycht](https://www.skbl.se/sv/artikel/HedvigCharlottaNordenflychtÖversättar) = Svenskt Översättarlexikon [Hedvig_Charlotta_Nordenflycht](https://litteraturbanken.se/%C3%B6vers%C3%A4ttarlexikon/artiklar/Hedvig_Charlotta_Nordenflycht)
+  * [List](http://tinyurl.com/y4n99gjy)
 
 ### The program
 To use add Wikidata login to [user-config.py](https://github.com/salgo60/SKBLWikidata/blob/master/user-config.py)
