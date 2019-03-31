@@ -13,10 +13,14 @@ This [task](https://phabricator.wikimedia.org/T219700) is for checking consisten
 * Access data in KARP
  * Get all records 
    * [ws.spraakbanken.gu.se/ws/karp/v4/minientry?mode=skbl&q=extended||and|namn.search|exists&resource=skbl&show=name,lifespan&size=10000&start=0](https://ws.spraakbanken.gu.se/ws/karp/v4/minientry?mode=skbl&q=extended%7C%7Cand%7Cnamn.search%7Cexists&resource=skbl&show=name,lifespan&size=10000&start=0)
- * KARP url = "AlmaAbrahamsson" 
-   * id =  [AV-6FkE-WxymAE2pjnq5](https://skbl.se/sv/artikel/AV-6FkE-WxymAE2pjnq5.json) 
+ * KARP 
+   * KARP.url = "AlmaAbrahamsson" 
+   * KARP.id =  [AV-6FkE-WxymAE2pjnq5](https://skbl.se/sv/artikel/AV-6FkE-WxymAE2pjnq5.json) 
 
-   * --> Wikidata P4963 --> [haswbstatement:P4963=AlmaAbrahamsson](https://www.wikidata.org/w/index.php?search=haswbstatement%3AP4963%3DAlmaAbrahamsson&title=Special%3ASearch&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1&ns120=1) --> Wikidata [Q50806808](https://www.wikidata.org/wiki/Q50806808)
+   * Wikidata [P4963](https://www.wikidata.org/wiki/Property_talk:P4963) contains the value of KARP.url
+     * --> [haswbstatement:P4963=AlmaAbrahamsson](https://www.wikidata.org/w/index.php?search=haswbstatement%3AP4963%3DAlmaAbrahamsson&title=Special%3ASearch&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1&ns120=1) --> Wikidata [Q50806808](https://www.wikidata.org/wiki/Q50806808) --> sv:Wikipedia [Alma Abrahamsson](https://sv.wikipedia.org/wiki/Alma_Abrahamsson)
+     * or use the [hub tool](https://tools.wmflabs.org/hub) with P4963 and the value in KARP.url [tools.wmflabs.org/hub/P4963:AlmaAbrahamsson?lang=sv](https://tools.wmflabs.org/hub/P4963:AlmaAbrahamsson?lang=sv)
+   * [List of Wikidata](http://tinyurl.com/y33z9466) / KARP.url / LIBIRS / ISSNI / SBL - [link query](https://goo.gl/2ffJwf)
 ### The program
 To use add Wikidata login to [user-config.py](https://github.com/salgo60/SKBLWikidata/blob/master/user-config.py)
 
