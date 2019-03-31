@@ -151,3 +151,5 @@ The program
     1. http://www.wikidata.org/wiki/Q4990100 
         1. SKBL: https://skbl.se/sv/artikel/AV3p525ZDqWJ2eBq92mK.json		  
         1. WD ISNI: 0000 0001 0966 715X SKBL ISNI: 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/salgo60/SKBLWikidata/master)
