@@ -32,10 +32,11 @@ This [task](https://phabricator.wikimedia.org/T219700) is for checking consisten
   * a small test with +300 SKBL profiles what sources in Riksarkivet Wikidata reference
       * [list with links](http://tinyurl.com/y2hpdscg) Riksarkivet ( [the query](https://goo.gl/SupVkQ))
 ##### KARP <-> Wikidata <-> Digital Museums
-As we move direction digital als some museums adds collections avalaible on the net as [Digitalmuseum.org](https://digitaltmuseum.org/). In Wikidata we store an identifier called Kulturnav and if the museums that upload data to Digitalmuseum is doing it in the "correct" way we could easy find collection for a person e.g.
+As we move in the direction of more digital also some museums starts add collections avalaible on the net as sites like [Digitalmuseum.org](https://digitaltmuseum.org/). In Wikidata we store an identifier called Kulturnav and if the museums that upload data to Digitalmuseum is doing it in the "correct" way we could easy find collections for a person
 * Example
   * SKBL [LeaAhlborn](https://www.skbl.se/sv/artikel/LeaAhlborn) = [kulturnav Ahlborn, Lea (1826 - 1897)](http://kulturnav.org/569ae578-d8d8-4260-a6d3-e67f8ffb7bda) = Digital museum [ahlborn-lea-1826-1897](https://digitaltmuseum.se/021036372385/ahlborn-lea-1826-1897)
   * [List](http://tinyurl.com/y4qtlfms) ordered after how many articles Wikipedia have about the person in different languages
+My feeling is that its a small chaos if museums links or not links a person. I guess its some education needed, better userinterfaces and also better understanding of the possibilities of the Digital landscape
 ##### KARP <-> Wikidata <-> Signaturer.se [P5316](https://www.wikidata.org/wiki/Property_talk:P5316)
 * Example
   * SKBL [AnnaBoberg](https://www.skbl.se/sv/artikel/AnnaBoberg) = Signaturer.se [AnnaBoberg](http://www.signaturer.se/Sverige/AnnaBoberg.htm)
