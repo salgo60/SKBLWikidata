@@ -73,6 +73,12 @@ Status in Wikidata is that Litteraturbanken [P5101](https://www.wikidata.org/wik
   * SKBL [SelmaLagerlof](https://www.skbl.se/sv/artikel/SelmaLagerlof) = Litteraturbanken [LagerlofS](https://litteraturbanken.se/forfattare/LagerlofS)
   * [List](http://tinyurl.com/y5djjq4r)
      * [List](http://tinyurl.com/y2p659r7) female, past away part in Litteraturbanken but NOT in SKBL ordered by number of articles in Wikipedia
+     
+### KARP <-> Wikidata <-> Nobel Prize Nomination [P3360](https://www.wikidata.org/wiki/Property_talk:P3360)
+* Example 
+  * SKBL [SelmaLagerlof](https://www.skbl.se/sv/artikel/SelmaLagerlof) = Nobel Prize Nomination [5152](https://www.nobelprize.org/nomination/redirector/?redir=archive/show_people.php&id=5152)
+  * [List](http://tinyurl.com/yxq64zj8)
+     * [List](http://tinyurl.com/y2rd6ojm) female, past away with Nobel Prize Nomination in Wikidata but NOT in SKBL ordered by number of articles in Wikipedia
 
 # The program
 To use add Wikidata login to [user-config.py](https://github.com/salgo60/SKBLWikidata/blob/master/user-config.py)
