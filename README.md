@@ -31,45 +31,50 @@ This [task](https://phabricator.wikimedia.org/T219700) is for checking consisten
 * next step is to also define sources with Unique identifiers so they can be machinereadable and compared
   * a small test with +300 SKBL profiles whith sources in Riksarkivet Wikidata as Wikidata reference for facts
       * [list with links](http://tinyurl.com/y2hpdscg) Riksarkivet ( [the query](https://goo.gl/SupVkQ))
-##### KARP <-> Wikidata <-> Digital Museums
+## Using what WIkidata knows about 
+Wikidata is connected to +3000 external sources see [list of SKBL profiles](http://tinyurl.com/y2nfoswl) below some examples how that can be used to find candidates fr new profiles
+### KARP <-> Wikidata <-> Digital Museums
 As we move in the direction of more digital also some museums starts add collections avalaible on the net as sites like [Digitalmuseum.org](https://digitaltmuseum.org/). In Wikidata we store an identifier called Kulturnav and if the museums that upload data to Digitalmuseum is doing it in the "correct" way we could easy find collections for a person
 * Example
   * SKBL [LeaAhlborn](https://www.skbl.se/sv/artikel/LeaAhlborn) = [kulturnav Ahlborn, Lea (1826 - 1897)](http://kulturnav.org/569ae578-d8d8-4260-a6d3-e67f8ffb7bda) = Digital museum [ahlborn-lea-1826-1897](https://digitaltmuseum.se/021036372385/ahlborn-lea-1826-1897)
   * [List](http://tinyurl.com/y4qtlfms) ordered after how many articles Wikipedia have about the person in different languages
 My feeling is that its a small chaos if museums links or not links a person. I guess its some education needed, better userinterfaces and also better understanding of the possibilities of the Digital landscape
-##### KARP <-> Wikidata <-> Signaturer.se [P5316](https://www.wikidata.org/wiki/Property_talk:P5316)
+### KARP <-> Wikidata <-> Signaturer.se [P5316](https://www.wikidata.org/wiki/Property_talk:P5316)
 * Example
   * SKBL [AnnaBoberg](https://www.skbl.se/sv/artikel/AnnaBoberg) = Signaturer.se [AnnaBoberg](http://www.signaturer.se/Sverige/AnnaBoberg.htm)
   * [List](http://tinyurl.com/y2m8twb9) 
-##### KARP <-> Wikidata <-> Nationalmuseum [P2538](https://www.wikidata.org/wiki/Property_talk:P2538)
+### KARP <-> Wikidata <-> Nationalmuseum [P2538](https://www.wikidata.org/wiki/Property_talk:P2538)
 * Example 
   * SKBL [HilmaafKlint](https://www.skbl.se/sv/artikel/HilmaafKlint) = Nationalmuseum [18466](http://emp-web-84.zetcom.ch/eMP/eMuseumPlus?service=ExternalInterface&module=artist&objectId=18466)
   * [List](http://tinyurl.com/yxcpg6yl)
      * [List](http://tinyurl.com/y6kqe9gm) female, swedish women who has passed away and is NOT in SKBL ordered by articles in Wikipedia
-##### KARP <-> Wikidata <-> Spotify [P1902](https://www.wikidata.org/wiki/Property_talk:P1902)
+     * [Same query but sorted by death date](http://tinyurl.com/y4uhg5gp)
+### KARP <-> Wikidata <-> Spotify [P1902](https://www.wikidata.org/wiki/Property_talk:P1902)
 * Example 
   * SKBL [ZarahLeander](https://www.skbl.se/sv/artikel/ZarahLeander) = Spotify [5R15K0QUPe4AhP1vaPoaX3](https://open.spotify.com/artist/5R15K0QUPe4AhP1vaPoaX3)
   * [List](http://tinyurl.com/y68adnky)
      * [List](http://tinyurl.com/y3yamvth) female, swedish women who has passed away and is NOT in SKBL ordered by number of articles in Wikipedia
-##### KARP <-> Wikidata <-> Svenskt Översättarlexikon [P5147](https://www.wikidata.org/wiki/Property_talk:P5147)
+     * [Same query but sorted by death date](http://tinyurl.com/yyto3pal)
+### KARP <-> Wikidata <-> Svenskt Översättarlexikon [P5147](https://www.wikidata.org/wiki/Property_talk:P5147)
 * Example 
   * SKBL [HedvigCharlottaNordenflycht](https://www.skbl.se/sv/artikel/HedvigCharlottaNordenflychtÖversättar) = Svenskt Översättarlexikon [Hedvig_Charlotta_Nordenflycht](https://litteraturbanken.se/%C3%B6vers%C3%A4ttarlexikon/artiklar/Hedvig_Charlotta_Nordenflycht)
   * [List](http://tinyurl.com/y4n99gjy)
      * [List](http://tinyurl.com/y4leqwks) female, past away but NOT in SKBL ordered by number of articles in Wikipedia
-##### KARP <-> Wikidata <-> SOK [P2323](https://www.wikidata.org/wiki/Property_talk:P2323)
+### KARP <-> Wikidata <-> SOK [P2323](https://www.wikidata.org/wiki/Property_talk:P2323)
 * Example 
   * SKBL [GretaJohansson](https://www.skbl.se/sv/artikel/GretaJohansson) = SOK [greta-johanson](https://sok.se/idrottare/idrottare/g/greta-johanson.html)
   * [List](http://tinyurl.com/y325kqst)
      * [List](http://tinyurl.com/y3qgu62u) female, past away part in SOK but NOT in SKBL ordered by number of articles in Wikipedia
+     * [Same query but sorted by death date](http://tinyurl.com/yyde2sxn)
 
-##### KARP <-> Wikidata <-> Litteraturbanken [P5101](https://www.wikidata.org/wiki/Property_talk:P5101)
+### KARP <-> Wikidata <-> Litteraturbanken [P5101](https://www.wikidata.org/wiki/Property_talk:P5101)
 Status in Wikidata is that Litteraturbanken [P5101](https://www.wikidata.org/wiki/Property_talk:P5101) needs some cleaning....
 * Example 
   * SKBL [SelmaLagerlof](https://www.skbl.se/sv/artikel/SelmaLagerlof) = Litteraturbanken [LagerlofS](https://litteraturbanken.se/forfattare/LagerlofS)
   * [List](http://tinyurl.com/y5djjq4r)
      * [List](http://tinyurl.com/y2p659r7) female, past away part in Litteraturbanken but NOT in SKBL ordered by number of articles in Wikipedia
 
-### The program
+# The program
 To use add Wikidata login to [user-config.py](https://github.com/salgo60/SKBLWikidata/blob/master/user-config.py)
 
 The program
@@ -85,13 +90,13 @@ The program
     1. Wikidata Q number e.g. [Q4933592](https://www.wikidata.org/wiki/Q4933592)
     1. Wikidata ISNI
 
-### Wikidata actions
+# Wikidata actions
 1. Updated wrong ISNI added missing
 1. Oddities found in SKBL
     1. [AVmr017w7hONWjeN9oCA](https://skbl.se/sv/artikel/AVmr017w7hONWjeN9oCA.json) ISNI number containes also text ISNI
     1. See section below Action SKBL see also task [T219706](https://phabricator.wikimedia.org/T219706)
     
-## Lesson learned
+# Lesson learned
 1. Writing software that should parse JSON and take care of odd implementations like KARP ISNI were **00000000** is no ISNI found. Take much more time than having a SPARQL endpoint and use Federated search see [Task T200668](https://phabricator.wikimedia.org/T200668) and [Nobelprize.org](https://www.wikidata.org/wiki/User:Salgo60/ListeriaNobelData3)
 1. Start comparing and sharing data will make the quality better for everyone and make life easier for the next person that should use this data
 1. Starting using linked data for people, places instead strings will be a game changer [Europeana Linked Open Data - What is it?](https://vimeo.com/36752317) se [Task T218782](https://phabricator.wikimedia.org/T218782)
