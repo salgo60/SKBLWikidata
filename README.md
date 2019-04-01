@@ -23,7 +23,7 @@ This [task](https://phabricator.wikimedia.org/T219700) is for checking consisten
         * same with the Q number [tools.wmflabs.org/hub/Q4933813?lang=sv](https://tools.wmflabs.org/hub/Q4933813?lang=sv)
         * same with [ISNI P213](https://www.wikidata.org/wiki/Property_talk:P213) = [tools.wmflabs.org/hub/P213:0000 0000 4761 5839?lang=sv](http://tools.wmflabs.org/hub/P213:0000%200000%204761%205839?lang=sv)
         * same with [LIBRIS P906](https://www.wikidata.org/wiki/Property_talk:P906) = 404084 -> SKBL P4963 [tools.wmflabs.org/hub/P906:404084?property=P4963](http://tools.wmflabs.org/hub/P906:404084?property=P4963)
-        * same with [SBL P3217]https://www.wikidata.org/wiki/Property_talk:P3217) = 5517 -> SKBL P4963 [tools.wmflabs.org/hub/P3217:5517?property=P4963](http://tools.wmflabs.org/hub/P3217:5517?property=P496)
+        * same with [SBL P3217](https://www.wikidata.org/wiki/Property_talk:P3217) = 5517 -> SKBL P4963 [tools.wmflabs.org/hub/P3217:5517?property=P4963](http://tools.wmflabs.org/hub/P3217:5517?property=P496)
            * SKBL P4963 = GertrudAdelborg --> SBL P3217 [tools.wmflabs.org/hub/P4963:GertrudAdelborg?property=P3217](tools.wmflabs.org/hub/P4963:GertrudAdelborg?property=P3217)
       * [List of Wikidata](http://tinyurl.com/y33z9466) / KARP.url / LIBRIS / ISSNI / SBL - [link query](https://goo.gl/2ffJwf)
       * [List of external identifiers in WIkidata](http://tinyurl.com/yybaazal) for profiles linked to SKBL see also [blog](http://minancestry.blogspot.com/2018/03/svenskt-kvinnobiografiskt-lexikon.html)
