@@ -27,6 +27,8 @@ This [task](https://phabricator.wikimedia.org/T219700) is for checking consisten
            * SKBL P4963 = GertrudAdelborg --> SBL P3217 [tools.wmflabs.org/hub/P4963:GertrudAdelborg?property=P3217](http://tools.wmflabs.org/hub/P4963:GertrudAdelborg?property=P3217)
       * [List of Wikidata](http://tinyurl.com/y33z9466) / KARP.url / LIBRIS / ISSNI / SBL - [link query](https://goo.gl/2ffJwf)
       * [List of external identifiers in WIkidata](http://tinyurl.com/yybaazal) for profiles linked to SKBL see also [blog](http://minancestry.blogspot.com/2018/03/svenskt-kvinnobiografiskt-lexikon.html)
+
+![](https://github.com/salgo60/SKBLWikidata/blob/master/External.png?raw=true "[External identifiers](http://tinyurl.com/yybaazal))") 
 ##### KARP <-> Wikidata sources e.g. Riksarkivet
 * next step is to also define sources with Unique identifiers so they can be machinereadable and compared
   * a small test with +300 SKBL profiles whith sources in Riksarkivet Wikidata as Wikidata reference for facts
@@ -36,7 +38,7 @@ Wikidata is connected to +3000 external sources see [list of SKBL profiles](http
 ### KARP <-> Wikidata <-> Digital Museums
 As we move in the direction of more digital also some museums starts add collections avalaible on the net as sites like [Digitalmuseum.org](https://digitaltmuseum.org/). In Wikidata we store an identifier called Kulturnav and if the museums that upload data to Digitalmuseum is doing it in the "correct" way we could easy find collections for a person
 * Example
-  * SKBL [LeaAhlborn](https://www.skbl.se/sv/artikel/LeaAhlborn) = [kulturnav Ahlborn, Lea (1826 - 1897)](http://kulturnav.org/569ae578-d8d8-4260-a6d3-e67f8ffb7bda) = Digital museum [ahlborn-lea-1826-1897](https://digitaltmuseum.se/021036372385/ahlborn-lea-1826-1897)
+  * SKBL [LeaAhlborn](https://www.skal.png?raw=truebl.se/sv/artikel/LeaAhlborn) = [kulturnav Ahlborn, Lea (1826 - 1897)](http://kulturnav.org/569ae578-d8d8-4260-a6d3-e67f8ffb7bda) = Digital museum [ahlborn-lea-1826-1897](https://digitaltmuseum.se/021036372385/ahlborn-lea-1826-1897)
   * [List](http://tinyurl.com/y4qtlfms) ordered after how many articles Wikipedia have about the person in different languages
 My feeling is that its a small chaos if museums links or not links a person. I guess its some education needed, better userinterfaces and also better understanding of the possibilities of the Digital landscape
 ### KARP <-> Wikidata <-> Signaturer.se [P5316](https://www.wikidata.org/wiki/Property_talk:P5316)
