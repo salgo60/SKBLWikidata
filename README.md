@@ -33,7 +33,7 @@ This [task](https://phabricator.wikimedia.org/T219700) is for checking consisten
 * next step is to also define sources with Unique identifiers so they can be machinereadable and compared
   * a small test with +300 SKBL profiles whith sources in Riksarkivet Wikidata as Wikidata reference for facts
       * [list with links](http://tinyurl.com/y2hpdscg) Riksarkivet ( [the query](https://goo.gl/SupVkQ))
-## Using what WIkidata knows about 
+## Using what Wikidata knows about 
 Wikidata is connected to +3000 external sources see [list of SKBL profiles](http://tinyurl.com/y2nfoswl) below some examples how that can be used to find candidates fr new profiles
 ### KARP <-> Wikidata <-> Digital Museums
 As we move in the direction of more digital also some museums starts add collections avalaible on the net as sites like [Digitalmuseum.org](https://digitaltmuseum.org/). In Wikidata we store an identifier called Kulturnav and if the museums that upload data to Digitalmuseum is doing it in the "correct" way we could easy find collections for a person
