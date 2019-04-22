@@ -1,5 +1,5 @@
-Task [T219700](https://phabricator.wikimedia.org/T219700) "*ISNI i SKBL <-> Wikidata*"
-Task [SKBL <-> KARP Svenskt kvinnobiografiskt lexikon](https://phabricator.wikimedia.org/T218782)
+* Task [T219700](https://phabricator.wikimedia.org/T219700) "*ISNI i SKBL <-> Wikidata*"
+* Task [SKBL <-> KARP Svenskt kvinnobiografiskt lexikon](https://phabricator.wikimedia.org/T218782)
 ## KARP - Wikidata
 
  
