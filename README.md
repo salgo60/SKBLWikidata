@@ -1,5 +1,6 @@
 * Task [T219700](https://phabricator.wikimedia.org/T219700) "*ISNI i SKBL <-> Wikidata*"
 * Task [SKBL <-> KARP Svenskt kvinnobiografiskt lexikon](https://phabricator.wikimedia.org/T218782)
+* See also [Jupyter Notebook 2020](https://github.com/salgo60/open-data-examples/blob/master/Svenskt%20Kvinnobiografiskt%20lexikon.ipynb)
 ## KARP - Wikidata
 
  
